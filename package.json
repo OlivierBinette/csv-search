@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@elastic/search-ui-elasticsearch-connector": "^1.17.1"
-  },
-  "version": "0.0.0"
-}
