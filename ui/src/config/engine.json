@@ -1,0 +1,27 @@
+{
+  "host": "http://localhost:9200",
+  "index": "main",
+  "resultFields": [
+    "account_number",
+    "balance",
+    "firstname",
+    "lastname",
+    "age",
+    "gender",
+    "address",
+    "employer",
+    "email",
+    "city",
+    "state"
+  ],
+  "sortFields": [
+    "age",
+    "balance",
+    "employer",
+    "city",
+    "state"
+  ],
+  "facets": [
+  ],
+  "titleField": "lastname"
+}
