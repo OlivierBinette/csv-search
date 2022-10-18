@@ -1,27 +1,20 @@
 {
-  "host": "http://localhost:9200",
-  "index": "main",
+  "engineName": "test-engine",
+  "endpointBase": "https://patentsview-production.ent.us-east-1.aws.found.io",
+  "searchKey": "search-f83k5vc1hn4t96jog89dfqi9",
   "resultFields": [
-    "account_number",
-    "balance",
-    "firstname",
-    "lastname",
-    "age",
-    "gender",
-    "address",
-    "employer",
-    "email",
-    "city",
-    "state"
+    "name_first",
+    "unique_id",
+    "mention_id",
+    "name_last",
+    "id"
   ],
   "sortFields": [
-    "age",
-    "balance",
-    "employer",
-    "city",
-    "state"
+
   ],
   "facets": [
+    "name_last",
+    "name_first"
   ],
-  "titleField": "lastname"
+  "titleField": "name_first"
 }

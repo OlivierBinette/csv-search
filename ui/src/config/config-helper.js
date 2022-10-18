@@ -14,7 +14,17 @@ export function getConfig() {
     return {};
   }
 
-  return config;
+  if (config.engineName) return config;
+
+  if (
+    typeof window !== "undefined" &&
+    window.appConfig &&
+    window.appConfig.engineName
+  ) {
+    return window.appConfig;
+  }
+
+  return {};
 }
 
 function toLowerCase(string) {
